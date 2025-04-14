@@ -1,12 +1,12 @@
 import DashboardLayout from 'components/ui/DashboardLayout'
 import { FC } from 'react'
 
-const DashboardProducts: FC = () => {
+const DashboardProductsEdit: FC = () => {
   return (
     <DashboardLayout>
-      <h1>DashboardProducts</h1>
+      <h1>DashboardProductsEdit</h1>
     </DashboardLayout>
   )
 }
 
-export default DashboardProducts
+export default DashboardProductsEdit
