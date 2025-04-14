@@ -1,12 +1,12 @@
 import DashboardLayout from 'components/ui/DashboardLayout'
 import { FC } from 'react'
 
-const DashboardRolesEdit: FC = () => {
+const DashboardRoles: FC = () => {
   return (
     <DashboardLayout>
-      <h1>DashboardRolesEdit</h1>
+      <h1>DashboardRoles</h1>
     </DashboardLayout>
   )
 }
 
-export default DashboardRolesEdit
+export default DashboardRoles

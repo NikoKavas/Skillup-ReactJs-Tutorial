@@ -84,8 +84,8 @@ const LoginForm: FC = () => {
         />
         <div className="d-flex justify-content-between align-items-center mb-2">
           <p className="mb-0">
-            Don{"'"}t have an account yet?
-            <Link className="text-decoration-none text-end" to={routes.SIGNUP}>
+            Don&apos;t have an account yet?
+            <Link className="tetxt-decoration-none text-end" to={routes.SIGNUP}>
               Create an account
             </Link>
           </p>
