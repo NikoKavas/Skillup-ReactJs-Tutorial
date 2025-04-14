@@ -24,7 +24,7 @@ const Navbar: FC = () => {
       setShowError(true)
     } else {
       authStore.signout()
-      navigate('/')
+      navigate(routes.HOME)
     }
   }
 

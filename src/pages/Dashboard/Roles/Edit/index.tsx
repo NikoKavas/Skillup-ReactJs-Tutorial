@@ -1,10 +1,14 @@
+import CreateUpdateRoleForm from 'components/role/CreateUpdateRoleForm/CreateUpdateRoleForm'
 import DashboardLayout from 'components/ui/DashboardLayout'
 import { FC } from 'react'
+import { useLocation } from 'react-router-dom'
 
 const DashboardRolesEdit: FC = () => {
+  const location = useLocation()
   return (
     <DashboardLayout>
-      <h1>DashboardRolesEdit</h1>
+      <h1 className="mb-4 text-center">DashboardRolesEdit</h1>
+      <CreateUpdateRoleForm defaultValues={location.state} />
     </DashboardLayout>
   )
 }
