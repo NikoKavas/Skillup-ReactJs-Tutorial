@@ -7,7 +7,7 @@ import { useNavigate, Link } from 'react-router-dom'
 import Toast from 'react-bootstrap/Toast'
 import ToastContainer from 'react-bootstrap/ToastContainer'
 import { Form, FormLabel } from 'react-bootstrap'
-import { Controller, set } from 'react-hook-form'
+import { Controller } from 'react-hook-form'
 import { routes } from 'constants/routesConstants'
 import Button from 'react-bootstrap/Button'
 import * as API from 'api/Api'
@@ -17,7 +17,7 @@ import Avatar from 'react-avatar'
 
 const RegisterForm: FC = () => {
   const navigate = useNavigate()
-  const { handleSubmit, errors, reset, control } = useRegisterForm()
+  const { handleSubmit, errors, control } = useRegisterForm()
   const [apiError, setApiError] = useState('')
   const [showError, setShowError] = useState(false)
 

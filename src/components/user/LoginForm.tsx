@@ -13,7 +13,7 @@ import authStore from 'stores/auth.store'
 
 const LoginForm: FC = () => {
   const navigate = useNavigate()
-  const { handleSubmit, errors, reset, control } = useLoginForm()
+  const { handleSubmit, errors, control } = useLoginForm()
   const [apiError, setApiError] = useState('')
   const [showError, setShowError] = useState(false)
 
